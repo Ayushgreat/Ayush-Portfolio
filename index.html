@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ayush">
+    <meta name="keywords" content=" My Portfolio">
+    <meta name="description" content="All about me">
+    <title>Portfolio</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header site -->
+    <header>
+        <div class="logo"><span>Ay</span>ush.</div>
+          <li>
+            <a href="#home#about#services#skills#project#contact" id="theme-toggle" style="color:cyan">
+            <i class='bx bx-sun' id="sun-icon"></i>
+            <i class='bx bx-moon' id="moon-icon" style="display:none;"></i>
+            </a>
+          </li>
+          <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Certificates</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Porjects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const sunIcon = document.getElementById('sun-icon');
+        const moonIcon = document.getElementById('moon-icon');
+
+         themeToggle.addEventListener('click', () => {
+         document.body.classList.toggle('dark-mode');
+         sunIcon.style.display = sunIcon.style.display === 'none' ? 'inline' : 'none';
+          moonIcon.style.display = moonIcon.style.display === 'none' ? 'inline' : 'none';
+         });
+    </script>
+    <!-- Home Section ------->
+    <main>
+        <section id="home" class="home">
+            <div class="home-content scroll-scale">
+              <h1>Hi! I'm Ayush Namdeo</h1>
+                <div class="change-text">
+                   <h3>And I'm</h3>
+                   <h3>
+                      <span class="word">Full&nbsp;Stack&nbsp;Developer</span>
+                      <span class="word">Web&nbsp;Designer</span>
+                      <span class="word">Frontend&nbsp;Developer</span>
+                      <span class="word">Web&nbsp;developer</span>
+                      <span class="word">Software&nbsp;Engineer</span>
+                    </h3>
+                </div>
+              <p>I am a full-stack developer and i leverage my skills in both front-end development (HTML, CSS, JavaScript) and back-end development (languages like Python, Java, etc.) to bring projects to life.</p>
+              <div class="info-box">
+                  <div class="mail-info">
+                      <h5>Email:</h5>
+                      <span>namdeoayush62@gmail.com</span>
+                    </div>
+                    <div class="behance-info">
+                       <h5>Linkedin:</h5>
+                       <span>www.linkedin.com/in/ayush-namdeo-509889241</span>
+                    </div>
+                </div>
+
+              <div class="btn-box">
+                  <a href="img/ayuresume.jpg"class="btn">Download CV</a>
+                  <a href="mailto:namdeoayush62@gmail.com" class="btn">Hire Me Now</a>
+              </div>
+
+              <div class="social-icons">
+                <a href="https://github.com/Ayushgreat"><i class='bx bxl-github'></i></a>
+                <a href="mailto:namdeoayush62@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.linkedin.com/in/ayush-namdeo-509889241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/Ayushgreat"><i class='bx bxl-instagram'></i></a>
+              </div>
+           </div>
+
+           <div class="home-image scroll-scale">
+             <div class="img-box">
+                <img src="img/ayuimage-removebg-preview.png" alt="ayush image">
+             </div>
+             <div class="liquid-shape">
+                   <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                      <animate attributeName="d" 
+                          dur="20000ms"
+                          repeatCount="indefinite"
+                          values="
+                          M399.5,292Q395,334,380.5,392Q366,450,308,444.5Q250,439,209,415.5Q168,392,138,362Q108,332,56.5,291Q5,250,61.5,212Q118,174,139.5,135Q161,96,205.5,59Q250,22,311.5,29.5Q373,37,384.5,101.5Q396,166,400,208Q404,250,399.5,292Z;
+                          
+                          M424,295Q405,340,384.5,393.5Q364,447,307,447.5Q250,448,203,430Q156,412,124.5,376.5Q93,341,76,295.5Q59,250,81.5,207.5Q104,165,118,105Q132,45,191,69.5Q250,94,312,65Q374,36,418.5,81.5Q463,127,453,188.5Q443,250,424,295Z;
+
+                          M420.5,299Q419,348,395.5,404.5Q372,461,311,453.5Q250,446,212,414Q174,382,140.5,357.5Q107,333,57,291.5Q7,250,24,189.5Q41,129,84,82.5Q127,36,188.5,61.5Q250,87,305,73.5Q360,60,378,113Q396,166,409,208Q422,250,420.5,299Z;
+
+                          M454.5,301.5Q428,353,380,372.5Q332,392,291,427Q250,462,193,454.5Q136,447,102.5,400.5Q69,354,49,302Q29,250,40,192.5Q51,135,89,85.5Q127,36,188.5,20Q250,4,312,19.5Q374,35,398.5,92.5Q423,150,452,200Q481,250,454.5,301.5Z;
+
+                          M420,289.5Q387,329,370,378.5Q353,428,301.5,414.5Q250,401,197.5,416Q145,431,109.5,391Q74,351,81,300.5Q88,250,102.5,211.5Q117,173,135.5,128Q154,83,202,78Q250,73,303.5,68.5Q357,64,373,117Q389,170,421,210Q453,250,420,289.5Z;
+
+                          M445.5,305Q441,360,398.5,397Q356,434,303,446.5Q250,459,194,452Q138,445,109,396.5Q80,348,59.5,299Q39,250,42,191Q45,132,108.5,123Q172,114,211,84Q250,54,307.5,52.5Q365,51,414,89Q463,127,456.5,188.5Q450,250,445.5,305Z;
+                          "
+                      ></animate>
+                    </path>
+                  </svg>
+             </div>
+           </div>
+        </section>
+    </main>
+
+    <!-- About section  -->
+    <section id="about" class="about">
+         <div class="img-about  scroll-scale">
+            <img src="img/ovalabout-modified.png" alt="about image">
+            <div class="info-about1">
+                <span>1+</span>
+                <p>Years of Exeperience</p>
+            </div>
+            <div class="info-about2">
+                <span>10+</span>
+                <p>Project Complete</p>
+            </div>
+            <div class="info-about3">
+                <span>10+</span>
+                <p>Certificates</p>
+            </div>
+           </div>
+            <div class="about-content  scroll-scale">
+               <span>Let me introduce myself</span>
+               <h2>About Me</h2>
+               <h3>A story of good</h3>
+               <p>I'm a passionate full-stack developer who brings websites and apps to life. I love tinkering with both the user-facing bits (think fancy buttons and smooth animations) and the behind-the-scenes magic that makes it all work. I'm a strong believer in teamwork and love collaborating with folks to solve problems and build something awesome.</p>
+
+                <div class="btn-box">
+                 <a href="#" class="btn">Read More!</a>
+                </div>
+            </div>       
+    </section> 
+
+    <!-- certificates section ------------------------------->
+     <section id="services" class="services">
+        <div class="main-text  scroll-scale">
+            <span>What i will do for you</span>
+            <h2>Certificates</h2>
+        </div>
+        <div class="section-services scroll-bottom">
+            <div class="service-box">
+                <i class="bx bxs-layer service-icon"></i>
+                <h3>Front-End Web Development</h3>
+                <p>
+                    This certificate recognizes the successful completion of the Front-End Web Development course offered by Google. The course provided comprehensive training in JavaScript and React.js.</p>
+                <div class="btn-box service-btn">
+                    <a href="img/FRounted devlopment.jpg" class="btn">Certificate</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-code-alt service-icon"></i>
+                <h3>DSA In Java</h3>
+                <p>
+                    This is to certify that i completed the Data Structures and Algorithms (DSA) course in Java from Apna College. The comprehensive program included in-depth.</p>
+                <div class="btn-box service-btn">
+                    <a href="img/dsa.jpg" class="btn">Certificate</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-desktop service-icon"></i>
+                <h3>Web Development</h3>
+                <p>I have completed one-month virtual internship in Web Development at Let's Grow More (LGM). Throughout this intensive program demonstrated exceptional skills in various web technologies, including HTML, CSS, JavaScript, and responsive design. </p>
+                <div class="btn-box service-btn">
+                    <a href="img/web devlopment.jpg" class="btn">certificate</a>
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+     <!-- skills section -------------->
+      <section id="skills" class="skills">
+        <div class="main-text  scroll-scale">
+            <span>Technical And Professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <!-- skill left  -->
+            <div class="skill-left scroll-scale ">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bxl-html5'></i> HTML</p>
+                        <P>93%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bxl-css3'></i> CSS</p>
+                        <P>90%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bxl-javascript' ></i> JAVASCRIPT</p>
+                        <P>87%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+           
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bxl-python' ></i> PYTHON</p>
+                        <P>80%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="python"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bxs-data'></i> MYSQL</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="mysql"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class="bx bx-code-alt"></i> MERN STACK</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="mernstack"></span>
+                    </div>
+                </div>
+
+            </div>
+        
+
+         <!-- skill right  -->
+            <div class="skill-right  scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>95%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="75"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Leadership</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>87%</big>
+                            <small>Project Mangement</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+
+    <!-- porject section  ------------------>
+     <section id="project" class="porject">
+        <div class="main-text  scroll-scale">
+            <h2>Latest Projects</h2>
+        </div>
+
+        <div class="project-gallery  scroll-bottom">
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="img/1.jpg" alt="1image">
+                </div>
+                <div class="port-content">
+                    <h3>Calculator</h3>
+                    <p>This project builds a basic calculator .The buttons and display area for the calculator capture button clicks, process numbers and operators, and display the results.</p>
+                    <a href="https://github.com/Ayushgreat/-_-1.git"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+           
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="img/2.jpg" alt="1image">
+                </div>
+                <div class="port-content">
+                    <h3>Portfolio</h3>
+                    <p>My portfolio website, built with HTML and CSS, showcases my web development skills and experience.It features clean and responsive design, highlighting my most impressive projects with captivating visuals and brief descriptions.</p>
+                    <a href="https://github.com/Ayushgreat/-_-2.git"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="img/3.jpg" alt="1image">
+                </div>
+                <div class="port-content">
+                    <h3> Landing Page</h3>
+                    <p>This project will create a landing page using HTML and CSS.Provide the basic structure, including sections for a header, hero image or video, content area, and call to action and visually appealing and responsive for different screen sizes.</p>
+                    <a href="https://github.com/Ayushgreat/-_-3.git"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="img/4.jpg" alt="1image">
+                </div>
+                <div class="port-content">
+                    <h3>Temperature Converter</h3>
+                    <p>A simple temperature converter webpage can be built using HTML and CSS.Including input fields for users to enter temperatures and buttons to trigger conversion making it visually appealing and user-friendly.</p>
+                    <a href="https://github.com/Ayushgreat/-_-4.git"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="img/5.jpg" alt="1image">
+                </div>
+                <div class="port-content">
+                    <h3>Rejistraction Form</h3>
+                    <p>A registration form can be built using HTML and CSS. This creates a visually appealing and functional way to collect user data during registration.</p>
+                    <a href="https://github.com/Ayushgreat/LGMVIP-Task-3.git"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="img/6.jpg" alt="1image">
+                </div>
+                <div class="port-content">
+                    <h3>API-call</h3>
+                    <p>HTML and CSS are for defining the structure and styling of a web page,  they cannot directly make API calls.  However, Javascript can be used within HTML to add functionality like making API calls.</p>
+                    <a href="https://github.com/Ayushgreat/API-call.git"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+     <!-- contact section ---------------------->
+      <section id="contact" class="contact">
+        <div class="main-text  scroll-scale ">
+            <span>Ask Me A Question</span>
+            <h2>Contact Me!</h2>
+        </div>
+
+        <form action="#" class=" scroll-bottom">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Address">
+            <input type="number" placeholder="Phone Number">
+            <Textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></Textarea>
+            <div class="btn-box formbtn">
+                <button type="Submit" class="btn">Send Message</button>
+            </div>
+        </form>
+      </section>
+
+      <!-- footer  website -------------->
+      <footer class=" scroll-top">
+           <div class="footer-container">
+            <a href="https://www.truecaller.com/" target="_blank"><i class='bx bx-phone-call'></i></a>
+            <a href="mailto:namdeoayush62@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+            <a href="#"><i class='bx bxs-up-arrow-circle'></i></a>
+           </div> 
+    </footer>
+    
+
+    <script src="scrpit.js"></script>
+</body>
+</html>
+
+
